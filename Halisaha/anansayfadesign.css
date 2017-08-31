@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+.sablon{width:1100px;  height:900px;margin-top:7px; margin-bottom:15px; background-color:#FFFFFF; margin-left:110px;
+ -webkit-box-shadow: 0 0 4px 6px #CCCCCC;
+	-moz-box-shadow: 0 0 4px 6px #CCCCCC;
+	box-shadow: 0 0 4px 6px #CCCCCC;
+-webkit-border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+border-radius: 50px 50px 50px 50px;
+z-index:1;}
+
+.logo{width:180px; height:140px; float:left; margin-left:10px; margin-top:15px;}
+
+.banner{width:700px; height:140px; float:left; margin-left:7px; margin-top:15px;
+-webkit-border-radius: 20px 20px 20px 20px;
+-moz-border-radius: 20px 20px 20px 20px;
+border-radius: 20px 20px 20px 20px;
+background-color:#76871F;
+-webkit-box-shadow: #B3B3B3 10px 10px 10px;
+-moz-box-shadow: #B3B3B3 10px 10px 10px; 
+box-shadow: #B3B3B3 10px 10px 10px;}
+
+.kullanıcı{width:180px; height:140px; float:left; margin-left:7px; margin-top:15px;
+	-webkit-border-radius: 20px 20px 20px 20px;
+	-moz-border-radius: 20px 20px 20px 20px;
+	border-radius: 20px 20px 20px 20px;
+	background: #3D3535;
+    -webkit-box-shadow: #B3B3B3 10px 10px 10px;
+-moz-box-shadow: #B3B3B3 10px 10px 10px; 
+box-shadow: #B3B3B3 10px 10px 10px;
+z-index:2;}
+
+
+
+
+.bar{width:1072px; height:65px; margin-top:10px; float:left; margin-left:12px;
+-webkit-border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+border-radius: 50px 50px 50px 50px;
+background-color:#76871F;
+-webkit-box-shadow: #B3B3B3 10px 10px 10px;
+-moz-box-shadow: #B3B3B3 10px 10px 10px; 
+box-shadow: #B3B3B3 10px 10px 10px;}
+
+.barkutucuk{width:140; height:65px; float:left; margin-left:12px;}
+
+.barimage{-webkit-border-radius: 5px 5px 5px 5px;
+		  -moz-border-radius: 5px 5px 5px 5px;
+		   border-radius: 5px 5px 5px 5px;float:left; margin-left:15px; margin-top:15px;}
+.baryazı{margin-top:20px; float:left; font-size:20px; margin-left:3px; color:#FFF; font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;}
+
+
+
+.filtreleme{width:200px; height:600px; float:left; margin-left:10px; margin-top:10px;
+-webkit-border-radius: 50px 50px 50px 50px; margin-right:865px;
+-moz-border-radius: 50px 50px 50px 50px;
+border-radius: 50px 50px 50px 50px;
+background-color:#3D3535;
+-webkit-box-shadow: #B3B3B3 10px 10px 10px;
+-moz-box-shadow: #B3B3B3 10px 10px 10px; 
+box-shadow: #B3B3B3 10px 10px 10px;}
+
+
+body
+{
+	margin:0;
+}
+.modal
+{
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	display:none;
+}
+.modal_close
+{
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.8);
+	position:fixed;
+	top:0;
+}
+.close
+{
+	cursor:pointer;
+}
+.modal_main
+{
+	width:30%;
+	height:400px;
+	background:#76871F;
+	z-index:4;
+	position:fixed;
+	top:16%;
+	
+	left:35%;
+	display:none;
+ -webkit-animation-duration: .5s;
+    -webkit-animation-delay: .0s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+	    -webkit-backface-visibility: visible!important;
+    -webkit-animation-name: fadeInRight;
+	-webkit-box-shadow: 0 0 4px 6px #333333;
+	-moz-box-shadow: 0 0 4px 6px #333333;
+	box-shadow: 0 0 4px 6px #333333;
+}
+@-webkit-keyframes fadeInRight{0%{opacity:0;-webkit-transform:translateX(20px)}100%{opacity:1;-webkit-transform:translateX(0)}}
+
+button
+{
+padding:20px;
+border-radius:5px;
+background:#3399cc;
+border:none;
+font-size:20px;
+color:#fff;
+margin:8%;
+}
+hr.style-one {
+border: 0;
+height: 1px;
+background: #333;
+background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -moz-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -ms-linear-gradient(left, #ccc, #333, #ccc);
+background-image: -o-linear-gradient(left, #ccc, #333, #ccc);
+}
